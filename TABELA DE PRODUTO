@@ -1,0 +1,18 @@
+/*Colunas:
+código do produto;
+nome do produto;
+embalagem;
+tamanho;
+sabor;
+preço de lista.
+*/
+CREATE TABLE [TABELA DE PRODUTOS](
+
+[CODIGO DO PRODUTO] [VARCHAR] (20) NOT NULL PRIMARY KEY, 
+[NOME DO PRODUTO] [VARCHAR] (50), 
+[EMBALAGEM] [VARCHAR] (50), 
+[TAMANHO] [VARCHAR] (50), 
+[SABOR] [VARCHAR] (50), 
+[PRECO DE LISTA] [SMALLMONEY]
+
+);
